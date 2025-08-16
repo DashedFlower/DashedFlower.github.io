@@ -7,7 +7,7 @@ body {
 }
 
 header {
-  background: #cc0033;
+  background: #cc0033; /* Rutgers red */
   color: white;
   text-align: center;
   padding: 1.5rem;
@@ -19,7 +19,7 @@ h1 {
 
 section {
   padding: 1.5rem;
-  max-width: 800px;
+  max-width: 900px;
   margin: auto;
 }
 
@@ -34,6 +34,21 @@ ul {
 
 ul li {
   padding: 0.3rem 0;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.gallery img {
+  width: 280px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
 
 footer {
