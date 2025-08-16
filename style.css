@@ -1,64 +1,97 @@
+/* General Styling */
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
   margin: 0;
-  line-height: 1.6;
-  background: #f4f4f9;
+  background: #f8f9fa;
   color: #333;
+  line-height: 1.6;
 }
 
 header {
-  background: #cc0033; /* Rutgers red */
+  background: linear-gradient(135deg, #cc0033, #990026);
   color: white;
   text-align: center;
-  padding: 1.5rem;
+  padding: 2rem 1rem;
+  animation: fadeInDown 1s ease-out;
 }
 
 h1 {
   margin: 0;
-}
-
-section {
-  padding: 1.5rem;
-  max-width: 900px;
-  margin: auto;
+  font-size: 2.8rem;
+  letter-spacing: 1px;
 }
 
 h2 {
   color: #cc0033;
+  border-bottom: 2px solid #cc0033;
+  display: inline-block;
+  padding-bottom: 5px;
+  margin-bottom: 1rem;
 }
 
-ul {
-  list-style: none;
-  padding: 0;
+section {
+  padding: 2rem 1.5rem;
+  max-width: 1000px;
+  margin: auto;
+  animation: fadeInUp 1s ease both;
 }
 
-ul li {
-  padding: 0.3rem 0;
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  background: #222;
+  color: white;
+  font-size: 0.9rem;
+  margin-top: 2rem;
 }
 
+/* Gallery */
 .gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 15px;
-  margin-top: 15px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
 }
 
 .gallery img {
   width: 100%;
   height: auto;
-  border-radius: 6px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
-  transition: transform 0.3s ease;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.25);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  cursor: pointer;
 }
 
 .gallery img:hover {
-  transform: scale(1.03);
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.35);
 }
 
-footer {
-  text-align: center;
-  padding: 1rem;
-  background: #222;
+/* Buttons */
+.contact-button {
+  display: inline-block;
+  background: #cc0033;
   color: white;
-  margin-top: 2rem;
+  padding: 14px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.contact-button:hover {
+  background: #990026;
+  transform: scale(1.08);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+/* Animations */
+@keyframes fadeInDown {
+  from { opacity: 0; transform: translateY(-30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
 }
