@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>My Landing Page</title>
+    <title>RF Parking</title>
   </head>
   <body>
-    <h1>My Landing Page</h1>
+    <h1>Your place to park during Rutgers Football games!</h1>
   </body>
 </html>
