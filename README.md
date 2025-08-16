@@ -1,69 +1,44 @@
 <!-- ============================================ -->
-<!--                   Contact                    -->
+<!--             Side by Side Reverse             -->
 <!-- ============================================ -->
 
-<section id="contact-2320">
+<section id="sbs-r-1892">
     <div class="cs-container">
+        <div class="cs-image-group">
+            <picture class="cs-picture">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="https://csimages2.nyc3.digitaloceanspaces.com/Images/MISC/derma-sbs-1.jpg">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="https://csimages2.nyc3.digitaloceanspaces.com/Images/MISC/derma-sbs-1.jpg">
+                <img loading="lazy" decoding="async" src="https://csimages2.nyc3.digitaloceanspaces.com/Images/MISC/derma-sbs-1.jpg" alt="dermatologist" width="324" height="467">
+            </picture>
+            <img class="cs-graphic cs-brown" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/lines-reverse.svg" alt="graphic" width="208" height="203" aria-hidden="true">
+            <img class="cs-graphic cs-peach" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/blob-reverse.svg" alt="graphic" width="56" height="42" aria-hidden="true">
+            <img class="cs-graphic cs-beige" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/beige-reverse.svg" alt="graphic" width="379" height="394" aria-hidden="true">
+            <img class="cs-graphic cs-leaf" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/leaf-reverse.svg" alt="graphic" width="179" height="225" aria-hidden="true">
+            <img class="cs-graphic cs-lines" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/mesh-reverse.svg" alt="graphic" width="189" height="208" aria-hidden="true">
+            <div class="cs-info">
+                <p class="cs-info-text">
+                    <span class="cs-bold">Elected Secretary</span>
+                    of Orange County Dermatology Society 2022-2024
+                </p>
+            </div>
+        </div>
         <div class="cs-content">
-            <span class="cs-topper">Contact Us</span>
-            <h2 class="cs-title">Get In Touch With Clarkes Construction</h2>
-            <!--Form-->
-            <form class="cs-form" id="cs-form-323-2320" name="Contact Form" method="post">
-                <label class="cs-label">
-                    Name
-                    <input class="cs-input" required type="text" name="name" placeholder="Name">
-                </label>
-                <label class="cs-label cs-email">
-                    Email
-                    <input class="cs-input" required type="email" name="email" placeholder="Email">
-                </label>
-                <label class="cs-label cs-phone">
-                    Phone
-                    <input class="cs-input" required type="tel" name="phone" placeholder="Phone">
-                </label>
-                <label class="cs-label cs-services">
-                    Services
-                    <select class="cs-input" name="Services">
-                        <option value="" disabled selected>Select a Service</option>
-                        <option value="New Construction">New Construction</option>
-                        <option value="Remodels">Remodels</option>
-                        <option value="Cabinets">Cabinets</option>
-                    </select>
-                </label>
-                <label class="cs-label">
-                    Message
-                    <textarea class="cs-input cs-textarea" required name="Message" placeholder="Write message..."></textarea>
-                </label>
-                <button class="cs-button-solid cs-submit" type="submit">Send Message</button>
-            </form>
-        </div>
-        <!--Map Image, pin is made in the Figma then export as one image-->
-        <div class="cs-map">
-            <div class="cs-iframe-wrapper">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d172153.33373691145!2d-122.33979794999999!3d47.608715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490102c93e83355%3A0x102565466944d59a!2sSeattle%2C%20WA!5e0!3m2!1sen!2sus!4v1739169879796!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="cs-flex">
+                <span class="cs-topper">About us</span>
+                <h2 class="cs-title">Welcome to Our Stitch Skin Dermatology</h2>
             </div>
-            <div class="cs-box">
-                <img class="cs-icon" decoding="async" loading="lazy" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/yellow-pin.svg" alt="icon" width="40" height="40" aria-hidden="true">
-                <div class="cs-flex">
-                    <span class="cs-header">Location</span>
-                    <span class="cs-address">38 Bridge Street, Andover, England, SP10 1BW
-                    </span>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="cs-container2">
-        <picture class="cs-background">
-            <!--Mobile Image-->
-            <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/house.jpg">
-            <!--Tablet and above Image-->
-            <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/house.jpg">
-            <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/house.jpg" alt="house" width="1280" height="243">
-        </picture>
-        <div class="cs-hours">
-            <div class="cs-topper">Working Hours</div>
-            <span class="cs-hours-info">Monday - Saturday: 10:00 - 20:00 
-                Sunday: Closed</span>
+            <p class="cs-text-large">
+                Stitch Skin Dermatology & Aesthetics is a California-based professional corp start-up that is redefining the way dermatology and medical aesthetics is practiced and delivered.
+            </p>
+            <p class="cs-text">
+                We are seeing a new crop of medical practices emerge that are reimagining the patient's experience with traditional healthcare (e.g. One Medical for Primary Care, Forward for Preventative Care, KindBody for Fertility, Tia for Women's Health), however we can't say the same for Dermatology and Medical Aesthetics.
+            </p>
+            <p class="cs-text">
+                Our objective with Stitch Skin is to build a truly patient-centric dermatology experience, from initial awareness to patient check-in to consultation to billing and post-visit (and everything in between), building lasting relationships and leveraging seamless technology to maximize patient satisfaction.
+            </p>
+            <a href="" class="cs-button-solid">Book an Appointment</a>
         </div>
     </div>
 </section>
