@@ -68,21 +68,21 @@ footer {
 }
 
 /* Buttons */
-.contact-button {
+.reserve-button {
   display: inline-block;
-  background: #cc0033;
-  color: white;
-  padding: 14px 25px;
-  border-radius: 30px;
-  text-decoration: none;
+  background-color: #cc0000; /* Rutgers red */
+  color: #fff;
+  font-size: 18px;
   font-weight: bold;
-  transition: all 0.3s ease;
+  padding: 14px 28px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.3s ease, transform 0.2s ease;
 }
 
-.contact-button:hover {
-  background: #990026;
-  transform: scale(1.08);
-  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+.reserve-button:hover {
+  background-color: #a30000;
+  transform: translateY(-2px);
 }
 
 /* Animations */
