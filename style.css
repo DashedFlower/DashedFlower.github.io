@@ -70,19 +70,21 @@ footer {
 /* Buttons */
 .reserve-button {
   display: inline-block;
-  background-color: #cc0000; /* Rutgers red */
+  background: linear-gradient(135deg, #cc0000, #a30000); /* Rutgers red gradient */
   color: #fff;
-  font-size: 18px;
-  font-weight: bold;
-  padding: 14px 28px;
-  border-radius: 8px;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 16px 36px;
+  border-radius: 50px;
   text-decoration: none;
-  transition: background 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
 }
 
 .reserve-button:hover {
-  background-color: #a30000;
-  transform: translateY(-2px);
+  background: linear-gradient(135deg, #e00000, #b30000);
+  transform: translateY(-4px) scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
 }
 
 /* Animations */
