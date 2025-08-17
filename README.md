@@ -1,1 +1,1 @@
-A sidehussle project
+A side hussle project
